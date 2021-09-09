@@ -1,0 +1,194 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create a Blog</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.ckeditor.com/ckeditor5/29.2.0/classic/ckeditor.js"></script>
+  <link rel="stylesheet" href="project.css">
+</head>
+
+<body onload="onloadtexteditor()">
+  <div class="nav-border">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="tagname nav-link" href="home.html">BLOG it!!</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link " href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Log in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signup.html">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="create.html">Create a blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="categories.html">Categories</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </div>
+  <!-- editor -->
+  <div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" style="height:300px;"
+            src="https://www.bing.com/th?id=OIP.py9HUdysy7wzaQaf8KSJswHaNK&w=169&h=225&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2"
+            alt="First slide">
+          <div class="carousel-caption d-md-block c2" style="color:black;">
+            <h3> “Success is the ability to go from failure to failure without losing your enthusiasm.” – Winston Churchill</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" style="height:300px"
+            src="https://www.bing.com/th?id=OIP.py9HUdysy7wzaQaf8KSJswHaNK&w=169&h=225&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2"
+            alt="Second slide">
+            <div class="carousel-caption d-md-block c2" style="color:black;">
+              <h3>“Don’t focus on having a great blog. Focus on producing a blog that’s great for your readers.” – Brian Clark</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" style="height:300px"
+            src="https://www.bing.com/th?id=OIP.py9HUdysy7wzaQaf8KSJswHaNK&w=169&h=225&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2"
+            alt="Third slide">
+            <div class="carousel-caption d-md-block c2" style="color:black;">
+              <h3>“What you do after you create your content is what truly counts.” – Gary Vaynerchuk</h3>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="create">
+    <div>
+      <h3>Create a blog:</h3>
+      <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample"
+        style="background-color: rgb(85, 162, 165);" aria-expanded="false" aria-controls="collapseExample">
+        Create a blog
+      </button><br><br>
+      <div class="collapse" id="collapseExample">
+        <div style="padding-top: 20px;">
+          <h3>Title:</h3>
+          <input type="text" placeholder="title" class="title" id="txttitle">  <!---->
+        </div><br>
+        <div>
+          <div>
+            <h3>Categories:</h3>
+            <select class="dropdown" id="category">
+              <option value="travel">Travel</option>
+              <option value="food">Food</option>
+              <option value="music">Music</option>
+              <option value="gaming">Gaming</option>
+              <option value="cars">Cars</option>
+              <option value="fashion">Fashion</option>
+            </select>
+          </div><br>
+          <div>
+            <h4>Insert an image:</h4>
+            <input type="file" id="image"><br><br>
+          </div>
+          <div id="editor" name="txteditor">
+
+          </div>
+
+          <br>
+          <div>
+            <button type="button" class="btn btn-info submit-btn" style="background-color:rgb(85, 162, 165) ;" onclick="handleOnClickforBlog(event)">Save</button>
+          </div>
+        </div><br>
+        <script>
+
+              // CKEDITOR.replace("editor");
+              // CKEDITOR.config.height = 430;
+              // CKEDITOR.config.resize_maxHeight = 400;
+              // CKEDITOR.config.resize_enabled = false;
+              // CKEDITOR.config.enterMode = CKEDITOR.ENTER_BR;
+
+
+
+
+        </script>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <div class="container-fluid footer">
+    <footer>
+      <div class="row  justify-content-center py-5">
+        <div class="col-11">
+          <div class="row ">
+            <div class="col-xl-8 col-md-4 col-sm-4 col-12 my-auto mx-auto a">
+              <h3 class=" mb-md-0 mb-5 bold-text">BLOG it!!!!</h3>
+            </div>
+            <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+              <h6 class="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
+              <ul class="list-unstyled">
+                <li>Home</li>
+                <li>About us</li>
+                <li>Contact us</li>
+                <li>Portfolio</li>
+              </ul>
+            </div>
+            <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+              <h6 class="mb-3 mb-lg-4 bold-text mt-sm-0 mt-5"><b>ADDRESS</b></h6>
+              <p class="mb-1">Lorem ipsum dolor sit amet.</p>
+              <p>Lorem, ipsum.</p>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-xl-8 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end">
+              <p class="social text-muted mb-0 pb-0 bold-text"> <span class="mx-2"><i class="fa fa-facebook"
+                    aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-linkedin-square"
+                    aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-twitter"
+                    aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-instagram"
+                    aria-hidden="true"></i></span> </p><small class="rights"><span>&#174;</span> BlogIt All Rights
+                Reserved.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script type="text/javascript" src="../BackEnd/ckeditor/ckeditor.js"></script>
+  <script type="text/javascript" src="../BackEnd/ckeditor/adapters/jquery.js"></script>
+  <script src="../BackEnd/scripts/create.js"></script>
+  <script>
+    /*
+    var fileName;
+    $(document).ready(function(){
+        $('input[type="file"]').change(function(e){
+            fileName = e.target.files[0].name;
+            alert('The file "' + fileName +  '" has been selected.');
+            console.log(fileName);
+        });
+
+    });
+    */
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,467 @@
+{
+  "users": [
+    {
+      "first_name": "Anna",
+      "last_name": "Smith",
+      "email": "annasmith23@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "chinmay",
+      "userName": "chinmayphade@gmail.com",
+      "password": "chinmay",
+      "id": 2
+    },
+    {
+      "name": "chinmay",
+      "userName": "chinmay@gmail.com",
+      "password": "chinmayph",
+      "id": 3
+    },
+    {
+      "name": "chinmay",
+      "userName": "chinmay@gmail.com",
+      "password": "chinmayph",
+      "id": 4
+    },
+    {
+      "name": "ch",
+      "userName": "chinmayphade@gmail.com",
+      "password": "chinmay",
+      "id": 5
+    },
+    {
+      "name": "chinmay",
+      "userName": "chinmayphade@gmail.com",
+      "password": "chinmay",
+      "id": 6
+    },
+    {
+      "name": "chinmay",
+      "userName": "chinmayphade@gmail.com",
+      "password": "chinmay",
+      "id": 7
+    },
+    {
+      "name": "chinmay",
+      "userName": "chinmayphade@gmail.com",
+      "password": "chinmay",
+      "id": 8
+    },
+    {
+      "name": "chinmay",
+      "userName": "chinmayphade@gmail.com",
+      "password": "chinmay",
+      "id": 9
+    },
+    {
+      "name": "deep",
+      "userName": "deep@gmail.com",
+      "password": "deep",
+      "id": 10
+    },
+    {
+      "name": "dee",
+      "userName": "dee@sad",
+      "password": "chinmay",
+      "id": 11
+    }
+  ],
+  "blogs": [
+    {
+      "first_name": "Anna",
+      "last_name": "Smith",
+      "email": "annasmith23@gmail.com",
+      "id": 1
+    },
+    {
+      "category": "music",
+      "title": "First1",
+      "imgpath": "../BackEnd/imagesundefined",
+      "timestamp": "2021-09-08T09:58:37.641Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 2
+    },
+    {
+      "category": "gaming",
+      "title": "sdfeewdf",
+      "imgpath": "../BackEnd/imagesundefined",
+      "timestamp": "2021-09-08T10:00:23.736Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 3
+    },
+    {
+      "category": "music",
+      "title": "sdfsf",
+      "imgpath": "../BackEnd/imagesundefined",
+      "timestamp": "2021-09-08T10:03:50.549Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 4
+    },
+    {
+      "category": "food",
+      "title": "hhjhj",
+      "imgpath": "../BackEnd/imagesundefined",
+      "timestamp": "2021-09-08T10:05:07.583Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 5
+    },
+    {
+      "category": "travel",
+      "title": "",
+      "imgpath": "../BackEnd/imagesundefined",
+      "timestamp": "2021-09-08T10:08:26.785Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 6
+    },
+    {
+      "category": "food",
+      "title": "ferf",
+      "imgpath": "../BackEnd/images/undefined",
+      "timestamp": "2021-09-08T10:18:27.005Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 7
+    },
+    {
+      "category": "travel",
+      "title": "",
+      "imgpath": "../BackEnd/images/undefined",
+      "timestamp": "2021-09-08T10:30:23.408Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 8
+    },
+    {
+      "category": "travel",
+      "title": "",
+      "timestamp": "2021-09-08T12:30:22.399Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 9
+    },
+    {
+      "category": "travel",
+      "title": "",
+      "timestamp": "2021-09-08T12:30:39.853Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 10
+    },
+    {
+      "category": "travel",
+      "title": "",
+      "imgpath": "../BackEnd/images/download.jpg",
+      "timestamp": "2021-09-08T12:31:36.739Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 11
+    },
+    {
+      "userid": null,
+      "category": "food",
+      "title": "sdfsdf",
+      "imgpath": "../BackEnd/images/download.jpg",
+      "timestamp": "2021-09-09T05:32:27.059Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 12
+    },
+    {
+      "userid": "undefined",
+      "category": "food",
+      "title": "scdsc",
+      "imgpath": "../BackEnd/images/download.jpg",
+      "timestamp": "2021-09-09T07:58:20.575Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 13
+    },
+    {
+      "userid": "undefined",
+      "category": "music",
+      "title": "sfsf",
+      "imgpath": "../BackEnd/images/none",
+      "timestamp": "2021-09-09T08:04:33.351Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 14
+    },
+    {
+      "userid": "undefined",
+      "category": "food",
+      "title": "sdfsdf",
+      "imgpath": "../BackEnd/images/none",
+      "timestamp": "2021-09-09T08:05:08.380Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 15
+    },
+    {
+      "userid": "undefined",
+      "category": "food",
+      "title": "ddv",
+      "imgpath": "../BackEnd/images/download.jpg",
+      "timestamp": "2021-09-09T08:11:40.938Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 16
+    },
+    {
+      "userid": "undefined",
+      "category": "music",
+      "title": "derf",
+      "imgpath": "../BackEnd/images/download.jpg",
+      "timestamp": "2021-09-09T08:16:06.855Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 17
+    },
+    {
+      "userid": "undefined",
+      "category": "travel",
+      "title": "",
+      "imgpath": "../BackEnd/images/none",
+      "timestamp": "2021-09-09T08:24:22.269Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 18
+    },
+    {
+      "userid": null,
+      "category": "travel",
+      "title": "",
+      "imgpath": "../BackEnd/images/none",
+      "text": "",
+      "timestamp": "2021-09-09T08:25:07.314Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 19
+    },
+    {
+      "userid": null,
+      "category": "travel",
+      "title": "",
+      "imgpath": "../BackEnd/images/none",
+      "text": "",
+      "timestamp": "2021-09-09T08:25:19.022Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 20
+    },
+    {
+      "userid": null,
+      "category": "travel",
+      "title": "",
+      "imgpath": "../BackEnd/images/none",
+      "text": "",
+      "timestamp": "2021-09-09T08:25:56.820Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 21
+    },
+    {
+      "userid": null,
+      "category": "travel",
+      "title": "",
+      "imgpath": "../BackEnd/images/none",
+      "timestamp": "2021-09-09T08:27:34.483Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 22
+    },
+    {
+      "userid": null,
+      "category": "gaming",
+      "title": "gvhgh",
+      "imgpath": "../BackEnd/images/none",
+      "timestamp": "2021-09-09T09:13:23.194Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 23
+    },
+    {
+      "userid": null,
+      "category": "travel",
+      "title": "",
+      "imgpath": "../BackEnd/images/none",
+      "text": "",
+      "timestamp": "2021-09-09T09:22:06.659Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 24
+    },
+    {
+      "userid": null,
+      "category": "travel",
+      "title": "",
+      "imgpath": "../BackEnd/images/none",
+      "text": "",
+      "timestamp": "2021-09-09T09:22:44.737Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 25
+    },
+    {
+      "userid": null,
+      "category": "travel",
+      "title": "",
+      "imgpath": "../BackEnd/images/none",
+      "text": "",
+      "timestamp": "2021-09-09T09:23:00.962Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 26
+    },
+    {
+      "userid": null,
+      "category": "travel",
+      "title": "",
+      "imgpath": "../BackEnd/images/none",
+      "text": "",
+      "timestamp": "2021-09-09T09:23:41.558Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 27
+    },
+    {
+      "userid": null,
+      "category": "travel",
+      "title": "",
+      "imgpath": "../BackEnd/images/none",
+      "text": "",
+      "timestamp": "2021-09-09T09:30:42.248Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 28
+    },
+    {
+      "userid": null,
+      "category": "travel",
+      "title": "",
+      "imgpath": "../BackEnd/images/none",
+      "text": "",
+      "timestamp": "2021-09-09T11:49:26.940Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 29
+    },
+    {
+      "userid": null,
+      "category": "travel",
+      "title": "",
+      "imgpath": "../BackEnd/images/none",
+      "text": "",
+      "timestamp": "2021-09-09T11:50:15.093Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 30
+    },
+    {
+      "userid": null,
+      "category": "travel",
+      "title": "",
+      "imgpath": "../BackEnd/images/none",
+      "text": "",
+      "timestamp": "2021-09-09T12:03:48.083Z",
+      "likes": 50,
+      "comments": [
+        "sjfiwjeif",
+        "ewfjweferg"
+      ],
+      "id": 31
+    }
+  ]
+}

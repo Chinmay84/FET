@@ -1,0 +1,148 @@
+.login {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(85, 162, 165);
+	height: 100vh;
+}
+#login {
+	.container {
+		#login-row {
+			#login-column {
+				#login-box {
+					margin-top: 200px;
+					max-width: 600px;
+					height: 320px;
+					border: 1px solid #9C9C9C;
+					background-color: #EAEAEA;
+					#login-form {
+						padding: 20px;
+						#register-link {
+							margin-top: -50px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.sign {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(85, 162, 165);
+	height: 100vh;
+}
+#sign {
+	.container {
+		#sign-row {
+			#sign-column {
+				#sign-box {
+					margin-top: 150px;
+					max-width: 600px;
+					height: 480px;
+					border: 1px solid #9C9C9C;
+					background-color: #EAEAEA;
+					#sign-form {
+						padding: 20px;
+						#login-link {
+							margin-top: -50px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.navbar {
+	min-height: 80px;
+  }
+  .navbar-toggle {
+	/* (80px - button height 34px) / 2 = 23px */
+	margin-top: 23px;
+	padding: 9px 10px !important;
+  }
+  
+  @media (min-width: 768px) {
+	.navbar-nav > li > a {
+	  /* (80px - line-height of 27px) / 2 = 26.5px */
+	  padding-top: 26.5px;
+	  padding-bottom: 26.5px;
+	  line-height: 27px;
+	}
+  }
+
+.tagname{
+	font-family: 'Merriweather', serif;
+	color:black;
+	font-size: 35px;
+}
+.tagname:hover{
+	color: black;
+	zoom: 120%;
+}
+.nav-border{
+	border-bottom: 5px solid white;
+	background-color:rgb(85, 162, 165) ;
+	background-repeat: no-repeat;
+	max-width: 100%;
+}
+.c1{
+	height: 500px;
+	border-bottom: 5px solid white;
+}
+.carousel-caption{
+	padding-bottom: 12rem;
+	color:white;
+}
+.card:hover{
+	transform: scale(1.05);
+ 	box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+section{
+	background-color:rgb(85, 162, 165) ;
+	border-bottom: 5px solid white;
+}
+// footer
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+footer {
+	font-family: 'Rubik', sans-serif;
+	background: rgb(85, 162, 165);
+	height: 300 !important;
+	color: white !important;
+	
+}
+
+.container-fluid {
+	overflow: hidden;
+	//background: #262626;
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 0;
+	padding-bottom: 0
+}
+
+small {
+	font-size: 10px
+}
+
+.create{
+	background-color: rgb(169, 169, 169);
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: 5px solid white;
+}
+.title{
+	width:500px
+}
+.dropdown{
+	background-color:rgb(85, 162, 165) ;
+	width: 120px;
+	height:40px;
+	border-radius: 5px;
+	color:white;
+}
+.c2{
+	padding-bottom: 6rem;
+	font-style: italic;
+}
+
