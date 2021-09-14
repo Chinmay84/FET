@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="project.css">
+
+    <title>Sign Up</title>
+
+</head>
+
+<body class="sign">
+    <div id="sign">
+        <div class="container">
+            <div id="sign-row" class="row justify-content-center align-items-center">
+                <div id="sign-column" class="col-md-6">
+                    <div id="sign-box" class="col-md-12">
+                        <form id="sign-form" class="form" action="" method="post">
+                            <h3 class="text-center text-info">Sign Up</h3>
+                            <div class="form-group">
+                                <label for="username" class="text-info">Name:</label><br>
+                                <input type="text" name="username" id="name" class="form-control" onblur="handleOnBlur(this)" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="username" class="text-info">Email:</label><br>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                                    </div>
+                                    <input type="email" name="username" id="emailId" class="form-control" onblur="handleOnBlur(this)" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="text-info">Password:</label><br>
+                                    <input type="password" name="password" id="password" class="form-control" onblur="handleOnBlur(this)" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="text-info">Confirm Password:</label><br>
+                                    <input type="password" name="password" id="confPassword" class="form-control" onblur="handleOnBlur(this)" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="button" name="submit" class="btn btn-info btn-md" value="Submit" onClick="handleOnClick(this,event)">
+                                </div>
+                                <div id="login-link" class="text-right">
+                                    <a href="login.html" class="text-info">Login</a>
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="../BackEnd/scripts/registernew.js"></script>
+
+
+
+</body>
+
+</html>
